@@ -1,3 +1,0 @@
-/*function Geolocalizar(){
-    const geo = 
-}*/

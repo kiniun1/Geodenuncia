@@ -2,9 +2,9 @@
   "name": "denuncia",
   "version": "1.0.0",
   "description": "API REST para denuncias",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Levi",
   "license": "ISC",
@@ -13,13 +13,14 @@
     "consign": "^0.1.6",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
+    "fs": "0.0.1-security",
     "jest": "^26.4.0",
     "logger": "0.0.1",
     "memcached": "^2.2.2",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "restify-clients": "^3.0.0",
+    "winston": "^3.3.3"
   }
 }
