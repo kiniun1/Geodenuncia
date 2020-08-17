@@ -1,0 +1,64 @@
+{
+    "info": 
+    {
+      "statuscode": 0,
+      "copyright": 
+      {
+        "text": "© 2020 MapQuest, Inc.",
+        "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+        "imageAltText": "© 2020 MapQuest, Inc."
+      },
+      "messages": []
+    },
+    "options": 
+    {
+      "maxResults": 1,
+      "thumbMaps": false,
+      "ignoreLatLngInput": false
+    },
+    "results": 
+    [
+      {
+        "providedLocation": 
+        {
+          "latLng": 
+          {
+            "lat": -9.648198,
+            "lng": -35.713458
+          }
+        },
+        "locations": 
+        [
+          {
+            "street": "Avenida Dona Constança de Góes Monteiro",
+            "adminArea6": "",
+            "adminArea6Type": "Neighborhood",
+            "adminArea5": "Maceió",
+            "adminArea5Type": "City",
+            "adminArea4": "",
+            "adminArea4Type": "County",
+            "adminArea3": "Alagoas",
+            "adminArea3Type": "State",
+            "adminArea1": "BR",
+            "adminArea1Type": "Country",
+            "postalCode": "57036-371",
+            "geocodeQualityCode": "B1AAA",
+            "geocodeQuality": "STREET",
+            "dragPoint": false,
+            "sideOfStreet": "N",
+            "linkId": "0",
+            "unknownInput": "",
+            "type": "s",
+            "latLng": {
+              "lat": -9.648263,
+              "lng": -35.713381
+            },
+            "displayLatLng": {
+              "lat": -9.648263,
+              "lng": -35.713381
+            }
+          }
+        ]
+      }
+    ]
+  }
