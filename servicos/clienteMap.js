@@ -14,3 +14,6 @@ MapClient.prototype.revgeocoding = function(coordenadas, callback){
 module.exports = function(){
     return MapClient;
 }
+
+//Arquivo que contém a rota e criando um cliente pelo restify-clients
+// para rodar um método revgeocoding pra achar o endereço com o parametro coordenadas que irei passar no denuncia.js

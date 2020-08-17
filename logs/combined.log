@@ -1,0 +1,10 @@
+{"level":"info","message":"::1 - - [17/Aug/2020:03:35:50 +0000] \"POST /v1/denuncias HTTP/1.1\" 400 54\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:36:12 +0000] \"POST /v1/denuncias HTTP/1.1\" 400 918\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:51:56 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:52:06 +0000] \"POST /v1/denuncias HTTP/1.1\" 400 54\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:52:37 +0000] \"POST /1/denuncias HTTP/1.1\" 500 54\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:55:27 +0000] \"POST /1/denuncias HTTP/1.1\" 404 24\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:55:44 +0000] \"POST /1/denuncias HTTP/1.1\" 404 24\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:56:39 +0000] \"POST /1/denuncias HTTP/1.1\" 404 36\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:57:16 +0000] \"POST /1/denuncias HTTP/1.1\" 404 33\n"}
+{"level":"info","message":"::1 - - [17/Aug/2020:03:57:33 +0000] \"POST /v1/denuncias HTTP/1.1\" 400 54\n"}

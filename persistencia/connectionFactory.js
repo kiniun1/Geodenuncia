@@ -12,3 +12,5 @@ function createDBConnection(){
 module.exports = function() {
     return createDBConnection;
 }
+
+// para criar a conexão com o banco de dados MYSQL

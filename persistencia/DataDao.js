@@ -10,3 +10,5 @@ DataDao.prototype.salva = function(dados, callback){
 module.exports = function(){
     return DataDao
 }
+
+//O método para inserir no banco de dados

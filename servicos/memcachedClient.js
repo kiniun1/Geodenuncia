@@ -11,3 +11,5 @@ function createMencachedClient(){
     })
     return cliente
 }
+
+// Cliente e a instancia para o uso de servidor de cache nesse caso o Mencached

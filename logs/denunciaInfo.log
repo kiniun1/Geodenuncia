@@ -1,6 +1,0 @@
-{"level":"info","message":"::1 - - [17/Aug/2020:01:42:07 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
-{"level":"info","message":"::1 - - [17/Aug/2020:01:42:28 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
-{"level":"info","message":"::1 - - [17/Aug/2020:01:42:34 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
-{"level":"info","message":"::1 - - [17/Aug/2020:01:46:14 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
-{"level":"info","message":"::1 - - [17/Aug/2020:01:46:19 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
-{"level":"info","message":"::1 - - [17/Aug/2020:01:48:49 +0000] \"POST /v1/denuncias HTTP/1.1\" 201 222\n"}
