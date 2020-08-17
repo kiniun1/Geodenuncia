@@ -33,6 +33,6 @@ module.exports = winston.createLogger({
                 colorize: false  
             }),
     ],
-  });
+  })
 
-// Criação dos Logs, 3 diferentes niveis, com info, debug e error
+// Criação dos Logs de niveis info e error

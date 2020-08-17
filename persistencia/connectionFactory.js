@@ -4,8 +4,8 @@ function createDBConnection(){
     return mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'levi2404',
-        database: 'payfast'
+        password: '',
+        database: 'denuncia_api'
     });
 }
 

@@ -1,6 +1,6 @@
 
 
-test('adicionar coordenadas ao memcached', async () => {
+test('adicionar coordenadas ao memcached', () => {
     const app = require('./config/custom-express')()
     const memcachedClient = app.servicos.memcachedClient()
 
@@ -18,7 +18,7 @@ test('adicionar coordenadas ao memcached', async () => {
         }
     }
     var a = 0
-    await memcachedClient.set('coordenadas:' + dados.lat + ',' + dados.lng, dados, 60000, function(erro)
+    memcachedClient.set('coordenadas:' + dados.lat + ',' + dados.lng, dados, 60000, function(erro)
     {
         if(erro){
             console.log(erro)
@@ -30,7 +30,7 @@ test('adicionar coordenadas ao memcached', async () => {
     })
 });
 
-test('consultar endereço no cache pelas coordenadas', async () => {
+test('consultar endereço no cache pelas coordenadas',  () => {
     const app = require('./config/custom-express')()
     const memcachedClient = app.servicos.memcachedClient()
 
@@ -48,7 +48,7 @@ test('consultar endereço no cache pelas coordenadas', async () => {
         }
     }
 
-    await memcachedClient.get('coordenadas:' + dados.lat + ',' + dados.lng, (erro, retorno) => {
+    memcachedClient.get('coordenadas:' + dados.lat + ',' + dados.lng, (erro, retorno) => {
         if(erro){
             console.log(erro)
         }
